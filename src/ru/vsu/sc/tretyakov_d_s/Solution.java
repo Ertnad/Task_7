@@ -8,7 +8,7 @@ public class Solution {
 
     int count = 0;
 
-    if (checkIndividuality(array)) {
+    if (checkArrayForRepeats(array)) {
 
       sortingArray(array);
 
@@ -57,7 +57,7 @@ public class Solution {
     return average;
   }
 
-  private boolean checkIndividuality(int[] array) {
+  private boolean checkArrayForRepeats(int[] array) {
 
     int k = 0;
     for (int i = 0; i < array.length; i++) {
