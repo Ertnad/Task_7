@@ -19,8 +19,4 @@ public class Main {
             System.out.println("One or more tests fail, the program ends.");
         }
     }
-
 }
-
-
-

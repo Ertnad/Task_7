@@ -25,7 +25,6 @@ public class TestResult {
       }
 
       printResultForTest(result, currentResult, currentArray, correctResult);
-
     }
 
     return result;

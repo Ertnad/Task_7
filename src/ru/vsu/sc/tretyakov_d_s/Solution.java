@@ -19,7 +19,6 @@ public class Solution {
           count += 1;
         }
       }
-
     }
     return count;
   }
@@ -42,13 +41,13 @@ public class Solution {
       }
       array[i + 1] = value;
     }
-
   }
 
   private int getArrayAverage(int[] array) {
 
     int average = 0;
     int sum = 0;
+
     for (int i = 0; i < array.length; i++) {
       sum += array[i];
     }
@@ -60,6 +59,7 @@ public class Solution {
   private boolean checkArrayForRepeats(int[] array) {
 
     int k = 0;
+
     for (int i = 0; i < array.length; i++) {
       for (int j = i + 1; j < array.length; j++) {
         if (array[i] == array[j]) {
@@ -70,8 +70,7 @@ public class Solution {
         }
       }
     }
+
     return true;
-
   }
-
 }
