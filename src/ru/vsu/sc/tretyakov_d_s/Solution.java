@@ -1,6 +1,5 @@
 package ru.vsu.sc.tretyakov_d_s;
 
-import java.util.Arrays;
 
 public class Solution {
 
@@ -21,10 +20,6 @@ public class Solution {
       }
     }
     return count;
-  }
-
-  public void printResult(int[] array, int count) {
-    System.out.printf("For array %s the result %s", Arrays.toString(array), count);
   }
 
   private void sortingArray(int[] array) {
